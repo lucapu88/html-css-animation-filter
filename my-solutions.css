@@ -85,3 +85,35 @@
 @keyframes rotate {
   0% {transform: rotate(360deg);}
 }
+
+/* esercizio 11 */
+.ex-11-icon:hover {
+  animation: ruotamezzo 3s linear;
+}
+
+@keyframes ruotamezzo {
+  0% {transform: rotate(0);}
+  90% {transform: rotate(320deg);}
+  100% {transform: rotate(0);}
+}
+
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation: rotatesquare 1s linear;
+}
+
+@keyframes rotatesquare {
+  0% {right: 40%;}
+  50% {left: 30%;}
+  100% {right: 40%;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: rotatesquare 1s linear;
+}
+
+@keyframes rotatesquare {
+  0% {left: 40%;}
+  50% {right: 30%;}
+  100% {left: 40%;}
+}
